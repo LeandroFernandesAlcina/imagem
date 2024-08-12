@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang"pt-br"
+<head>
+<title>Introdução a Imagem</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width", initial-scale="1.0">
+<head>
+<script>
+    function draw(){
+    var canvas = document.getElementById('meucanvas');
+    if (canvas.getContext){
+    var cntxt = canvas.getContext('2d');
+
+    var imagem =  document.getElementById("super");
+    cntxt.drawImage(imagem, (canvas.width -  imagem.width)/2, (canvas.heigth - imagem.heigth )/2, image.width/2, image.height/2);
+     }
+}
+    </script>
+    </head>
